@@ -1,11 +1,19 @@
+
 # ConnectZ
 ---
 
-#### Background
+### Background
 
-ConnectZ is a problem based on the well known board game Connect 4 whereby two players have to make a continuous line of 4 counters on a board of size 7 x 6. However, in the ConnectZ problem the dimensions of the board (x and y) and the number of counters which must be connected to reach a winning condition (z), are unknown a priori. The ConnectZ challenge is to write an algorithm that evaluates information about a game that has already been played and outputs the outcome. Additionally, it must be able to identify if the input information describes a valid/possible game.
+ConnectZ is a problem based on the well known board game Connect 4 whereby two players have to make a continuous line of 4 counters on a board of size 7 x 6. However, in the ConnectZ problem the dimensions of the board (x and y) and the number of counters which must be connected to reach a winning condition (z), are unknown a priori. The ConnectZ challenge is to write an algorithm that evaluates information about a game that has already been played and outputs the outcome. Additionally, it must be able to identify if the input information describes a valid/possible game.  
 
-#### Specification 
+---
+### Specification 
+---
+
+##### Prerequisites  
+
+Python 3.6+
+Only standard library
 
 ##### Input  
 
@@ -53,7 +61,13 @@ The codes are defined as follows:
 | 8    | Invalid file     | The file is opened but does not conform to the format.                                                                                                                                                                                                  |
 | 9    | File error       | The file can not be found, opened or read for some reason.                                                                                                                                                                                              |
 
-#### Solution
+##### Testing
+
+To run the test suite with unittest simply run test.py by:  
+`python test.py` or `python -m unittest test.py`  
+your python environment will need to have unittest.
+
+### Solution
 
 Below is an explanation of how I approached the problem developed a solution.
 
